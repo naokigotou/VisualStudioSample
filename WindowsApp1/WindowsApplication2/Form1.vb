@@ -38,7 +38,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        DataGridTest() ' 
+        DataGridTest()
 
     End Sub
 
@@ -71,7 +71,7 @@
         Dim cb As DataGridViewComboBoxEditingControl = CType(sender, DataGridViewComboBoxEditingControl)
         Console.WriteLine(cb.SelectedItem)
 
-        DataGridView1.CurrentRow.Cells("ColTango").Value = cb.SelectedItem
+        ' DataGridView1.CurrentRow.Cells("ColTango").Value = cb.SelectedItem
 
         'If Not (Me.dataGridViewComboBox Is Nothing) Then
         '    RemoveHandler Me.dataGridViewComboBox.SelectedIndexChanged, AddressOf dataGridViewComboBox_SelectedIndexChanged
@@ -111,6 +111,14 @@
         For Each row In dt.Rows
             print(row("ColTango"))
         Next
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+        DataGridView1.CurrentRow.DefaultCellStyle.BackColor = Color.Crimson
+
+        ' DataGridView1.CurrentRow.cells .DefaultCellStyle.BackColor = Color.Crimson
 
     End Sub
 End Class
