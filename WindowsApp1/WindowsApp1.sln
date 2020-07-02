@@ -9,6 +9,12 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApplication2", "Wind
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApp2", "WindowsApp2\WindowsApp2.vbproj", "{6957CADF-3707-4FA8-93F9-00DBD69F38CC}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApp3", "WindowsApp3\WindowsApp3.vbproj", "{C6EB3FE2-4A5D-4C33-A13B-24029AC99839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSWindowsFormsApp1", "CSWindowsFormsApp1\CSWindowsFormsApp1.csproj", "{7A6B25A5-4975-49DD-A498-20F786AFA5AD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApp4", "WindowsApp4\WindowsApp4.vbproj", "{B2851436-B406-45EC-B33F-DBB70D18430E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{6957CADF-3707-4FA8-93F9-00DBD69F38CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6957CADF-3707-4FA8-93F9-00DBD69F38CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6957CADF-3707-4FA8-93F9-00DBD69F38CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EB3FE2-4A5D-4C33-A13B-24029AC99839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EB3FE2-4A5D-4C33-A13B-24029AC99839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EB3FE2-4A5D-4C33-A13B-24029AC99839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EB3FE2-4A5D-4C33-A13B-24029AC99839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6B25A5-4975-49DD-A498-20F786AFA5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6B25A5-4975-49DD-A498-20F786AFA5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6B25A5-4975-49DD-A498-20F786AFA5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6B25A5-4975-49DD-A498-20F786AFA5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2851436-B406-45EC-B33F-DBB70D18430E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2851436-B406-45EC-B33F-DBB70D18430E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2851436-B406-45EC-B33F-DBB70D18430E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2851436-B406-45EC-B33F-DBB70D18430E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
